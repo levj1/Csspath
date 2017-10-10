@@ -3,14 +3,30 @@
     padding: 0px;
     margin: 0px;
 }
-ul{
+
+body{
     background-color: #cccccc;
+}
+ul{
     list-style: none;
+}
+.menu li{
+    list-style: none;
+    text-align: center;
+}
+.menu li:hover{
+    background-color: #cc9999;
 }
 
 ul li{
-    background-color: #cccc99;
-    padding:10px;
-    margin: 10px;
-    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    padding: 3px 0 0 10px;
+    border-bottom: 3px solid black;
+    
+}
+
+li a{
+    text-decoration: none;
 }
