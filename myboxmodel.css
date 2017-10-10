@@ -1,0 +1,41 @@
+*{
+    padding: 10px;
+    margin: 0px;
+}
+
+body{
+    background-color: #d8d8d5;
+    font-family: sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    width: 145px;
+    border-bottom: solid 2px #fbfaf5;
+    margin: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.menu li:hover{
+    background-color: greenyellow;
+}
+
+p{
+    padding-left: 10px;
+}
+
+.author-name {
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+}
+hr{
+    border: solid 1px black;
+    line-height: 0px;
+}
