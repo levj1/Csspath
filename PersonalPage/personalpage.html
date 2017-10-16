@@ -3,23 +3,33 @@
     <header>
         <title>Personal</title>
         <link href="css/bootstrap.min.css" rel="stylesheet" />
-        <link href="css/readable-bootstrap.min.css" rel="stylesheet" />
+        <link href="css/spacelab-bootstrap.min.css" rel="stylesheet" />
         <link href="css/personal.css" rel="stylesheet" type="text/css" />
     </header>
     <body>
         <!--Header-->
         <header class="container">
-            <div id="author-name" class="row">
-                James Leveille
+            <div class="author-name container">
+                <p>James Leveille<p>
+                <hr />
             </div>    
-            <div id="nav" class="row">
-                <ul class="menu">
-                    <li>First </li>
-                    <li>Second</li>
-                    <li>Third</li>
-                    <li>Fourth</li>
-                </ul>
+            <div id="menu" class="navbar default-navbar">
+                <div classs="navbar-header">
+                    <a class="navbar brand" href="#"><img alt="Brand" src="image/novert.jpg" width="120px" height="60px"></a>
+                    <button class="btn btn-success navbar-toggle"
+                            data-toggle="collapse"
+                            data-target=".navbar-collapse"><span class="glyphicon glyphicon-chevron-down"></span>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav active"><a href="#">Home</a></li>
+                        <li class="nav"><a href="#">Second</a></li>
+                        <li class="nav"><a href="#">Third</a></li>
+                        <li class="nav"><a href="#">Fourth</a></li>
+                    </ul>
+                </div>
             </div>
+            
         </header>
         
         <div class="container">
