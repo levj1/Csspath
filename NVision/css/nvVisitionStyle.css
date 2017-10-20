@@ -1,3 +1,11 @@
-.navbar-collapse{
-    margin-left: 20px;
+#mynav{
+    background-image: url("https://images.adsttc.com/media/images/586d/60b5/e58e/cef4/9f00/000b/large_jpg/RE_JoyfulChurch_Ext_04_-_Copy.jpg?1483563183");
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+footer{
+    color: white;
 }

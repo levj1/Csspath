@@ -1,0 +1,219 @@
+﻿<!Doctype html>
+<html>
+    <head>
+        <title>NVision</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="css/nvVisitionStyle.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>                
+        <nav class="navbar navbar-inverse" id="mynav">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Page1</a></li>
+                                <li><a href="#">Page2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <h1>Dropdown</h1>
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button"
+                            data-toggle="dropdown">
+                        DropDown Example <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">Css</a></li>
+                        <li><a href="#">Javascript</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="jumbotron">
+                    <h1>Welcome to Nvision</h1>
+                    <p>We are.....</p>
+                </div>
+                <h1>Bootstrap in action page</h1>
+                <p>This is some text</p>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <h1>Header 1</h1>
+                        <p>Abbriaviation <abbr title="who are you">WAY</abbr></p>
+                        <blockquote>
+                            <p>This is the quote</p>
+                            <footer>Author of the quote</footer>
+                        </blockquote>
+                        <p class="text-muted">Text muted</p>
+                        <p class="text-success">text success</p>
+
+                        <p class="bg-primary">big primary (important text)</p>
+                        <p class="bg-danger">big primary (danger text)</p>
+                    </div>
+                    <div class="col-md-8">
+                        <h1>headers <small>Small header</small></h1>
+                        <p>We use the mark element to <mark>Hightlight</mark> text</p>
+
+                        <pre>
+                        pre tag is used to show 
+                        text just as they are.  
+                        a + b = a + b
+                    </pre>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>FirstName</th>
+                                <th>LastName</th>
+                                <th>Email</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>john@example.com</td>
+                            </tr>
+                            <tr>
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>john@example.com</td>
+                            </tr>
+                            <tr>
+                                <td>John</td>
+                                <td>Doe</td>
+                                <td>john@example.com</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="data:image/jpeg;base64,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"
+                                 class="img-rounded" width="304" height="236" />
+                        </div>
+                        <div class="col-md-4">
+                            <img src="data:image/jpeg;base64,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"
+                                 class="img-circle" width="304" height="236" />
+                        </div>
+                        <div class="col-md-4">
+                            <img src="data:image/jpeg;base64,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"
+                                 class="img-thumbnail" width="304" height="236" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="container">
+                <div class="row">
+                    <h1>Image Gallery</h1>
+                    <p>You can also use bootstrap's grid system in conjunction with the .thumbnail class to create an image gallery.</p>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="https://www.w3schools.com/w3images/lights.jpg">
+                                <img src="https://www.w3schools.com/w3images/lights.jpg" alt="lights" style="width:100%" />
+                                <div class="caption">
+                                    <p>Lorem ipsum...</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="https://www.w3schools.com/w3images/lights.jpg">
+                                <img src="https://www.w3schools.com/w3images/lights.jpg" alt="lights" style="width:100%" />
+                                <div class="caption">
+                                    <p>Lorem ipsum...</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="https://www.w3schools.com/w3images/lights.jpg">
+                                <img src="https://www.w3schools.com/w3images/lights.jpg" alt="lights" style="width:100%" />
+                                <div class="caption">
+                                    <p>Lorem ipsum...</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container">
+                <h2>Responsive Embed</h2>
+                <h2>Aspect ratio 16:9</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XGSy3_Czz8k"></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <h2>Collapse</h2>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Collapsible</button>
+                <div id="demo" class="collapse">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+            </div>
+        </div>
+
+        <footer class="nav navbar-inverse navbar-fixed-bottom" >
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-4">
+                        &copy; Copyright NVision
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <a href="#">Contact US</a>
+                    </div>
+                </div>
+                
+            </div>
+        </footer>
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+</html>
