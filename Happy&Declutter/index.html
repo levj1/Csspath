@@ -9,14 +9,18 @@
     </head>
     <body>                
         
-        <nav class="navbar navbar-collapse-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGSVULTwyxSIFlKvnPlj1uCEHMPFXMDNiH1tLNUEZvw20wojuvnA" width="30" height="30" alt="">
-                HappyDcltr
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <nav class="navbar navbar-toggleable-md navbar-light" id="navbar">
+            <div class="navbar-header">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <a class="navbar-brand" href="#">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGSVULTwyxSIFlKvnPlj1uCEHMPFXMDNiH1tLNUEZvw20wojuvnA" width="30" height="30" alt="">
+                    HappyDcltr
+                </a>
+            </div>
+            
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
@@ -44,24 +48,51 @@
 
 
 
-        <section class="container">
-            
+        <section class="container-fluid">
+            <h2>Header</h2>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+
+            <h1 class="testbox">HTML </h1>
+
+            <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+            <h2>Header Level 2</h2>
+
+            <ol>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+            </ol>
+
+            <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+            <h3>Header Level 3</h3>
+
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+            </ul>
+
+<pre><code>
+#header h1 a {
+  display: block;
+  width: 300px;
+  height: 80px;
+}
+</code></pre>
         </section>
 
-        <footer class="footer" style="background-color: #0e7031;">
-            <div class="row">
-                <div class="col-4">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                </div>
-                <div class="col-4" style="color: goldenrod;">
-                    We clean to make you happy! We clean and you can just watch.
-                    &copy; Copyright HappyDcltr
-                </div>
-                <div class="col-4">
-                    <button class="btn btn-default">Contact Us</button>
-                </div>
-            </div>
+        <footer class="footer" id="footer">
+            <h4>We clean to make you happy!</h4>
+
+            <ul class="social-links">
+                <li><a href="#"><i class="fa fa-facebook fa-fw"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter fa-fw"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus fa-fw"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram fa-fw"></i></a></li>
+            </ul>
+
+            <h6>&copy;HappyDeclutter 2017</h6>
+            
         </footer>
          
 
