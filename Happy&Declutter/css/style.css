@@ -1,4 +1,7 @@
 
+body{
+    background-color: #fbfbf6;
+}
 
 /*Navbar*/
 .navbar.navbar-toggleable-md.navbar-light {
@@ -6,10 +9,16 @@
 }
 
 .navbar.navbar-toggleable-md.navbar-light li a{
-    color: #afba19;
+    color: white;
 }
+
+
 #navbar a:hover{      
     color: #cca60f;
+}
+
+.nav-link{
+    color: white;
 }
 
 
@@ -19,11 +28,11 @@
   padding: 60px 0 20px;
   background-color: #3d7437;
   text-align: center;
-  color: #cca60f;
+  color: white;
 }
 
 .footer a{
-    color:#cca60f;
+    color:white;
 }
 .footer h4{
     font-weight: 300;
@@ -42,8 +51,6 @@
 .footer .social-links{
     list-style:none;
     padding: 0;
-    margin: 30px 0 40px;
-    padding: 40px 0 0;
     border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
