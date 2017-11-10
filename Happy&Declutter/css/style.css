@@ -7,19 +7,21 @@ body{
 .navbar.navbar-toggleable-md.navbar-light {
     background-color: #3d7437;  
 }
-
+.active a{
+    color: #cca60f !important;
+}
 .navbar.navbar-toggleable-md.navbar-light li a{
     color: white;
 }
-
 
 #navbar a:hover{      
     color: #cca60f;
 }
 
-.nav-link{
-    color: white;
+.dropdown-menu{
+       background-color: #3d7437;  
 }
+
 
 
 
