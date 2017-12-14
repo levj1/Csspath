@@ -1,0 +1,35 @@
+﻿body
+{
+}
+
+header{
+    background-color: beige;
+}
+nav{
+    background-color: bisque;
+}
+
+
+
+footer{
+    background-color: darkseagreen;
+}
+
+.streakBox{
+    border:2px solid darkseagreen;
+    text-align: center;
+}
+
+.well well-md{
+    position: relative;
+}
+.glyphicon glyphicon-list{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+footer{
+    padding-bottom: 60px;
+    text-align: center;
+}
